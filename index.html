@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Site maintenance</title>
+      
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+      <style>
+        /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+        html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:0.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{-webkit-box-sizing:content-box;box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace, monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace, monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-0.25em}sup{top:-0.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:0.35em 0.75em 0.625em}legend{-webkit-box-sizing:border-box;box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{-webkit-box-sizing:border-box;box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}
+        /* custom styling */
+        body, html {height: 100%;}
+        body {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+          -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          width: 100%;
+          height: 100vh;
+          color: #e9e2ee;
+          font-size: 18px;
+          font-family: sans-serif;
+          line-height: 1.5;
+          text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
+          background: #014e84;
+          background: -webkit-gradient(linear, left top, left bottom, from(#014e84), to(#089599));
+          background: linear-gradient(to bottom, #014e84 0%, #089599 100%);
+          filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#014e84', endColorstr='#089599', GradientType=0);
+          -webkit-box-shadow: inset 0 0 300px rgba(0, 0, 0, 0.5);
+          -moz-box-shadow: inset 0 0 300px rgba(0, 0, 0, 0.5);
+          box-shadow: inset 0 0 300px rgba(0, 0, 0, 0.5);
+        }
+        a, a:link, a:visited {
+          color: #c6eaf7;
+          font-weight: bold;
+          text-decoration: none;
+        }
+        a:active, a:hover {
+          color: #d8f3fd;
+          text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75), 0 0 5px rgba(198, 234, 247, 0.4);
+        }
+        .article-content {
+          -webkit-box-flex: 0;
+          -ms-flex: 0 1 70%;
+          flex: 0 1 70%;
+          max-width: 40rem;
+          height: auto;
+          border-left: none;
+          background-color: transparent;
+          position: relative;
+          padding-left: 120px;
+        }
+        .article-content h1 {
+          font-size: 42px;
+          margin: 0.5rem 0;
+        }
+        .article-content p {
+          margin-bottom: 0.3em;
+        }
+        .article-content span.time, .article-content span.date {
+          color:#DFDECD;
+          font-weight:bold;
+        }
+        .article-content .image {
+          position: absolute;
+          top: 20px;
+          left: 0;
+        }
+        .article-content .image svg {
+          -webkit-animation: spin 10s linear infinite;
+          -moz-animation: spin 10s linear infinite;
+          animation: spin 10s linear infinite;
+        }
+        @keyframes spin {
+          0% { transform : rotate(0deg);}
+          100% { transform : rotate(360deg);}
+        }
+      </style>
+    </head>
+    <body>
+      <article class="article-content">
+        <div class="image">
+          <svg fill="#FFFFFF" height="100" width="100" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M19.43 12.98c.04-.32.07-.64.07-.98s-.03-.66-.07-.98l2.11-1.65c.19-.15.24-.42.12-.64l-2-3.46c-.12-.22-.39-.3-.61-.22l-2.49 1c-.52-.4-1.08-.73-1.69-.98l-.38-2.65C14.46 2.18 14.25 2 14 2h-4c-.25 0-.46.18-.49.42l-.38 2.65c-.61.25-1.17.59-1.69.98l-2.49-1c-.23-.09-.49 0-.61.22l-2 3.46c-.13.22-.07.49.12.64l2.11 1.65c-.04.32-.07.65-.07.98s.03.66.07.98l-2.11 1.65c-.19.15-.24.42-.12.64l2 3.46c.12.22.39.3.61.22l2.49-1c.52.4 1.08.73 1.69.98l.38 2.65c.03.24.24.42.49.42h4c.25 0 .46-.18.49-.42l.38-2.65c.61-.25 1.17-.59 1.69-.98l2.49 1c.23.09.49 0 .61-.22l2-3.46c.12-.22.07-.49-.12-.64l-2.11-1.65zM12 15.5c-1.93 0-3.5-1.57-3.5-3.5s1.57-3.5 3.5-3.5 3.5 1.57 3.5 3.5-1.57 3.5-3.5 3.5z"></path>
+          </svg>
+        </div>
+        <div class="content">
+          <h1>The site is currently under maintenance</h1>
+          <p>
+            I will be unavailable from
+            <span class="date">Friday 4th September 2020, 08:00 AM</span> to
+            <span class="date">Saturday 5th September 2020, 11:30 PM.</span>
+          </p>
+          <p>
+            Please be patient and I will be back online soon.
+          </p>
+        </div>
+      </article>
+    
